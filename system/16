@@ -1,0 +1,3 @@
+Name of servies - cron
+Cron
+You could use crontab -e to edit crontab file and call the commands you need

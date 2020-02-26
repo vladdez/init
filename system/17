@@ -1,0 +1,10 @@
+ssh kysgramo@localhost -p 2222
+
+But first you shoold adjuct port forwarding in VirtualBox with the following SSH parameters:
+Name: SSH
+Protocol: TCP
+Host IP: 127.0.0.1
+Host Port: 2222
+IP Guest: Empty
+Port Guest: 22
+More info: https://medium.com/@pierangelo1982/setting-ssh-connection-to-ubuntu-on-virtualbox-af243f737b8b

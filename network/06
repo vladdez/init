@@ -1,0 +1,3 @@
+using  cat /etc/resolv.conf you can see resolver configuration file
+
+This file transform symbolic domain names in numerical addresses or gives iP-address of a name server to use

@@ -1,0 +1,14 @@
+#!/bin/bash
+str1="Your IP-address "
+str2=$(ipconfig getpacket en0 | grep "yiaddr" | cut -d ' ' -f3)
+str3="Your hostname is "
+str4=$(hostname)
+string=$str1$str2
+echo $string
+string=$str3$str4
+echo $string
+str6="Your name is "
+str7=$(whoami)
+string=$str6$str7
+echo $string
+say hi $str7

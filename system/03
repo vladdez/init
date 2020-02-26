@@ -1,0 +1,2 @@
+/etc/hostname
+use sudo nano /etc/hostname to edit, write your desired hostname and reboot a system

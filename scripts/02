@@ -1,0 +1,4 @@
+#!/bin/bash
+user="nameuser"
+echo $user
+sudo deluser $user
